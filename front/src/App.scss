@@ -1,0 +1,154 @@
+// @import url(./main-scss/header.scss);
+// @import url(./main-scss/Section1.scss);
+// @import url(./main-scss/Section2.scss);
+// @import url(./main-scss/Section3.scss);
+// @import url(./main-scss/Section4.scss);
+// @import url(./main-scss/Section5.scss);
+// @import url(./main-scss/Footer.scss);
+//@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size:30px;
+  list-style: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  
+}
+h1, h2, h3, h4, p, span, ul, ol, li, a{
+  color:#191919;
+}
+a {
+  text-decoration: none;
+  color:#191919;
+}
+
+span{
+  color:#9CD5C2;
+  font-size:30px;
+}
+
+
+.newest-review{
+  margin:70px 0 70px;
+}
+.monthly-review{
+  margin:180px 0 70px;
+}
+
+
+.slick-dots {
+  bottom: 25px;
+  button {
+      width: 5px;
+      height: 5px;
+      border: 2px solid #9CD5C2;
+      border-radius: 50%;
+      box-shadow:1px 1px 3px rgba(gray, 0.6);
+      &::before {
+          display: none;
+      }
+  }
+  .slick-active {
+      button {
+          background: #9CD5C2;
+      }
+  }
+}
+
+
+
+
+
+$wh : #ffffff;
+$bk : #000000;
+$pt :#9CD5C2;
+
+
+.slick-arrow {
+        z-index: 10;
+        width: 50px;
+        height: 50px;
+        background: rgba($wh, 0.2);
+        border-radius: 50%;
+        transition: background 0.5s;
+        border:2px solid #9CD5C2;
+        
+        &:hover {
+            background: rgba($pt, 0.9);
+            &::before {
+                color: rgba($bk, 0.5);
+            }
+        }
+        
+        &::before {
+            // font-family: 'Line Awesome Free';
+            // font-weight: 900;
+            // font-size: 49px;
+            // transition: all 0.5s;
+            
+            :hover{
+              background-image: none;
+            }
+        }
+        
+    }
+    
+    .slick-prev {
+        left: -30px;
+        &:hover {
+          background: rgba($pt, 0.9);
+          
+
+          &::before {
+              color: rgba($bk, 0.5);
+              background-image : url('../Image/icons8-chevron-left-90-white.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+      }
+      
+      &::before {
+        content: "\f137";
+          background-image : url('../Image/icons8-chevron-left-90.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          :hover{
+            background-image: none;
+          }
+      }
+
+
+    }
+
+    .slick-next {
+        right: -30px;
+        &:hover {
+          background: rgba($pt, 0.9);
+          
+
+          &::before {
+              color: rgba($bk, 0.5);
+              background-image : url('../Image/icons8-chevron-right-90-white.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+      }
+      
+      &::before {
+        content: "\f138";
+          background-image : url('../Image/icons8-chevron-right-90.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          :hover{
+            background-image: none;
+          }
+      }
+    }
+    .slick-dots{
+      bottom:-50px;
+    }
+    
