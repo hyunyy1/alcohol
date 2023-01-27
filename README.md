@@ -17,7 +17,12 @@
 
 <img src="https://user-images.githubusercontent.com/79568825/214505796-4cf89c02-4c26-4501-8fd6-70c05acb7648.png" width="600" height="400"/>
 
+--------
+### ✔️ 화면 설계 (피그마)
 
+![image](https://user-images.githubusercontent.com/79568825/214994879-d9c6ae3b-ba25-4799-ba6b-498fa696b4f7.png)
+
+--------
 ### ✔️ DB 설계
 
 <img src="https://user-images.githubusercontent.com/79568825/214506078-34d454bb-f946-4774-927f-8785e50a2780.png" width="800" height="400"/>
@@ -26,6 +31,7 @@
 ### ✔️ skills
 ```
 - Front : HTML, CSS, JS, React
+
 - Back : Node.js, MySQL
 ```
 --------
