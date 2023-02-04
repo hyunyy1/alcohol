@@ -39,10 +39,22 @@
 ### ✔️ 맡은 역할 ( Back - End )
 ```
 - DB 설계
-- 술집 주소 검색 (카카오 지도 api 사용)
+- 술집 주소 검색 (카카오 지도 검색 api 사용)
 - 리뷰 등록
-- 리뷰 출력
 - 리뷰 검색
+- 리뷰 출력 (Front)
+
+<Back>
+routes>list.js ( 술집 주소 검색 )
+routes>add.js ( 리뷰 등록 )
+routes>search.js ( 리뷰 검색 )
+
+<Front>
+src>views>CreateReview>Modal2.js ( 술집 주소 검색 페이지 )
+src>views>CreateReview>CreateReview.js ( 리뷰 등록 페이지 )
+src>views>Map>Map.js ( 지도&마커&인포윈도우 생성, 리뷰 검색 페이지 )
+src>components>Modal>Modal.js ( 마커 클릭 시 오픈되는 리뷰 페이지 )
+
 ```
 --------
 
